@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Signup</h3>
+    <form action="">
+      <table border="1">
+        <tr>
+          <th colspan="2">기본정보</th>
+        </tr>
+        <tr>
+          <th>이름</th>
+          <td>
+            <textarea name="name" id="" cols="20" rows="1"></textarea>
+            <button type="submit">아이디중복확인</button>
+            <div>6~16자 까지 영문자(소문자), 숫자 사용 가능합니다.</div>
+          </td>
+        </tr>
+        <tr>
+          <th>비밀번호</th>
+          <td>
+            <textarea name="password" id="" cols="20" rows="1"></textarea>
+            <div>
+              6~16자 까지 영문자(대소문자), 숫자 및 특수문자 사용 가능합니다.
+            </div>
+            <div>3자리 연속 또는 같은 문자, 아이디는 사용하실 수 없습니다.</div>
+          </td>
+        </tr>
+        <tr>
+          <th>비밀번호 확인</th>
+          <td>
+            <textarea name="check_password" id="" cols="20" rows="1"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th>이메일</th>
+          <td>
+            <textarea name="email_id" id="" cols="20" rows="1"></textarea>
+            @
+            <textarea name="email_site" id="" cols="20" rows="1"></textarea>
+            <select name="email_site" id="">
+              <option value="choose_site">메일주소선택</option>
+              <option value="naver">naver.com</option>
+              <option value="daum">daum.net</option>
+              <option value="google">google.com</option>
+              <option value="yahoo">yahoo.com</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>연락처</th>
+          <td>
+            휴대전화
+            <select name="phone_number_first" id="">
+              <option value="010">010</option>
+              <option value="011">011</option>
+            </select>
+            -
+            <textarea
+              name="phone_number_second"
+              id=""
+              cols="10"
+              rows="1"
+            ></textarea>
+            -
+            <textarea
+              name="phone_number_third"
+              id=""
+              cols="10"
+              rows="1"
+            ></textarea>
+            <div>
+              일반전화
+              <select name="number_first" id="">
+                <option value="choose_number">선택</option>
+                <option value="02">02</option>
+                <option value="031">031</option>
+                <option value="032">032</option>
+              </select>
+              -
+              <textarea
+                name="number_second"
+                id=""
+                cols="10"
+                rows="1"
+              ></textarea>
+              -
+              <textarea name="number_third" id="" cols="10" rows="1"></textarea>
+            </div>
+            <div>연락처는 둘중 하나만 입력해도 됩니다.</div>
+          </td>
+        </tr>
+        <tr>
+          <th>우편번호</th>
+          <td>
+            <textarea name="address_number" id="" cols="20" rows="1"></textarea>
+            <button type="submit">주소검색</button>
+          </td>
+        </tr>
+        <tr>
+          <th>주소</th>
+          <td>
+            <textarea name="address1" id="" cols="120" rows="1"></textarea>
+            <div>
+              <textarea name="address2" id="" cols="20" rows="1"></textarea>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>정보수신 여부</th>
+          <td>
+            서비스 및 이벤트 소식을&nbsp;
+            <input type="checkbox" name="email_agree" id="email_agree" />
+            <label for="agree_checkbox">Email로 수신하겠습니다.&nbsp;</label>
+            <input type="checkbox" name="SMS_agree" id="SMS_agree" />
+            <label for="agree_checkbox">SMS로 수신하겠습니다.</label>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <hr />
+    <h3><a href="../../index.html" , target="_self">index</a></h3>
+  </body>
+</html>
