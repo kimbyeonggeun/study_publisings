@@ -1,0 +1,27 @@
+* {
+    /* border: 1px solid gray; */
+}
+
+.ul-out{
+    background-color: yellow;
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.li-out{
+    display: inline-block;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.head{
+    font-weight: 900;
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+}
+
+div{
+    margin-bottom: 10px;
+}
