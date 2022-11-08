@@ -1,0 +1,47 @@
+table {
+  background-color: rgb(216, 218, 61);
+  height: 15cm;
+  width: 15cm;
+}
+
+li {
+  display: flex;
+  background-color: white;
+  margin-bottom: 5px;
+  list-style-type: none;
+  border-right: 15px solid black;
+  padding: 5px;
+  width: 115px;
+}
+
+ul {
+  padding-left: 0px;
+  /* padding-right: 20px; */
+}
+
+div {
+  margin-bottom: 10px;
+  color: rgb(128, 0, 128);
+}
+
+td {
+  vertical-align: top;
+  padding: 15px;
+}
+
+td > hr {
+  background-color: rgb(128, 0, 128);
+  height: 1px;
+  border: 0;
+}
+
+.head {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.ul-outline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
