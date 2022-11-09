@@ -1,0 +1,23 @@
+textarea{
+    resize: none;
+}
+
+.submit{
+    text-align: center;
+}
+
+.table{
+    text-align: left;
+    background-color: rgb(255,254,224);
+}
+
+.head-tail{
+    background-color: rgb(255,160,122);
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.head{
+    height: 40px;
+}
